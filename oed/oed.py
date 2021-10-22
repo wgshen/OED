@@ -83,6 +83,16 @@ class OED(object):
     
     Methods
     -------
+    post_logpdf(), post_pdf()
+        Evaluate the posterior logpdf (pdf) of parameter samples.
+    post_rvs()
+        Generate samples from the posterior.
+    exp_utility()
+        Estimate the expected utility of a given design.
+    oed()
+        Find the optimal design that maximizes the expected utility using
+        Bayesian optimization.
+
 
     Notes
     -----
