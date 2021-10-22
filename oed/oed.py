@@ -347,7 +347,7 @@ class OED(object):
         objective = lambda **kws: self.exp_utility(np.array(list(kws.values())),
                                                    self.thetas,
                                                    self.noises)
-        if self.optimizer is None:
+        if self.optimizer is None or restart:
             self.optimizer = BayesianOptimization(
                 f=objective, pbounds=pbounds,
                 random_state=self.random_state)
