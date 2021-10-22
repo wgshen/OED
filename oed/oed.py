@@ -212,7 +212,7 @@ class OED(object):
         if include_prior:
             assert self.prior_logpdf is not None, (
                 "prior_logpdf is required to estimate posterior probabilities, "
-                "which is a function to evaluate prior PDFS, "
+                "which is a function to evaluate prior log probabilities, "
                 "with input of size (n_sample, n_param), and output of "
                 "size (n_sample).")
         if d is None: d = []
