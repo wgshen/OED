@@ -10,7 +10,8 @@ class OED(object):
     perspective, accommodates both batch and greedy design, and continuous 
     design space.
     This version only uses Bayesian optimization, we will provide more 
-    optimization choices in the future.
+    optimization choices in the future (probably use gradient-free-optimizers
+    library).
 
     Parameters
     ----------
