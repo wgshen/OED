@@ -6,4 +6,4 @@ Please refer to https://www.sciencedirect.com/science/article/pii/S0021999112004
 # Dependencies
 * Numpy 1.17.3
 * emcee 3.0.2
-* BayesianOptimization
+* BayesianOptimization, https://github.com/fmfn/BayesianOptimization
